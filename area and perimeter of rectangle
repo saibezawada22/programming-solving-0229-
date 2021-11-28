@@ -1,0 +1,11 @@
+include<stdio.h>
+int main()
+{
+int a,b,area,perimeter;
+printf("enter a,b");
+scanf("%d%d",&a,&b);
+area=a*b;
+printf("area is %d",area);
+perimeter=4*a*b;
+printf("perimeter is %d",perimeter):
+}
