@@ -5,5 +5,5 @@ float principle,time,rate,si;
 printf("enter principle,time,rate");
 scanf("%f%f%f",&principle,&time,&rate);
 si=(principle*time*rate)/100;
-printf("principle is %.2f",principle);
+printf("si is %.2f",si);
 }
