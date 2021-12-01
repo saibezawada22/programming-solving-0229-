@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int float basic,da,hra,ta,others,pf,it,net salary;
+float basic,da,hra,ta,others,pf,it,net salary;
 printf("enter basic salary,hra,ta,others");
 scanf("%f%f%f%f",&basic,&hra,&ta,&others);
 da=(basic*12)/100;
@@ -12,3 +12,4 @@ it=(basic*15)/100;
 net salary=basic+da+hra+ta+others-(pf+it);
 printf("net salary is %.2f",net salary);
 }
+
