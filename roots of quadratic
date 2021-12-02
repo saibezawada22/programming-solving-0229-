@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+    float a,b,c,discriminant,root1,root2,imaginary root;
+    printf("enter a,b,c");
+    scanf("%f%f%f",&a,&b,&c);
+    discriminant=(b*b)+4*a*b;
+    printf("discriminant is %f",discriminant);
+    if(discriminant>0)
+    {
+    root1=(-b+sqrt(discriminant))/(2*a);
+    root2=(-b-sqrt(discriminant))/(2*a);
+    printf("root1,root2 is %.2f%.2f",root1,root2);
+    }
+    else if(discrminant<0)
+    {
+    root1=root2=-b/(2*a);
+    imaginary=sqrt(-discriminant)/(2*a);
+    printf("root1,imaginary is %.2f%.2f",root1,imaginary);
+    }
+    else
+    {
+    root1=root2=-b/(2*a);
+    printf("root1 is %.2f",root1);
+    }
+}
