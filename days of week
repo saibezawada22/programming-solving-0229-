@@ -27,5 +27,8 @@ int main()
         case 7:
         printf("saturday");
         break;
+        default:
+        printf("enter crt choice");
+        break;
     }
 } 
