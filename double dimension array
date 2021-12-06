@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int i,j,a[i][j];
+    printf("enter a values");
+    for(i=0;i<5;i++);               
+    {
+        for(j=0;j<5;j++)
+        {
+            printf("%d",&a[i][j]);
+        }                                                              
+    }
+    printf("\n a values are");
+    for(i=0;i<5;i++)
+    {                     
+        printf("\n");
+        for(j=0;j<5;j++)
+        {
+            printf("\t %d",a[i][j]);
+        }
+    }
+}                                                                         
+
+                                                                                                                                                        
