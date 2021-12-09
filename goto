@@ -1,0 +1,39 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,sum,sub,mul,div,ch;
+    printf("enter a,b");
+    scanf("%d%d",&a,&b);
+    printf("enter choice");
+    scanf("%d",&ch);
+    switch(ch)
+    {
+        sai:
+        case 1:
+        sum=a+b;
+        printf("sum is %d",sum);
+        break;
+        siri:
+        case 2:
+        sub=a-b;
+        printf("sub is %d",sub);
+        break;
+        babs:
+        case 3:
+        mul=a*b;
+        printf("mul is %d",mul);
+        break;
+        manu:
+        case 4:
+        div=a/b;
+        printf("div is %.d",div);
+        break;
+        case 6:
+        goto sai;
+        break;
+        default:
+        printf("enter crt choice");
+        break;
+    }
+    return 0;
+}
