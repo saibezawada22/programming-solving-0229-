@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int i,j;
+    for(j=1;j<5;j++)
+{
+for(i=5;i>0;i--)
+{
+ printf("\n%c",i+64);
+}
+printf("\n");
+break;
+}  
+}
