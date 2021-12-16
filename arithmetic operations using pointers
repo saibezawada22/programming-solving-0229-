@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,*p1,*p2,sum,sub,mul,div,rem;
+    printf("enter a,b");
+    scanf("%d%d",&a,&b);
+    p1=&a;
+    p2=&b;
+    printf("enter *p1,*p2 is %d\t %d \n",*p1,*p2);
+    sum=*p1+*p2;
+    sub=*p1-*p2;
+    mul=*p1**p2;
+    div=*p1/ *p2;
+    rem=*p1%*p2;
+    printf("sum is %d\n",sum);
+    printf("sub is %d\n",sub);
+    printf("mul is %d\n",mul);
+    printf("div is %d\n",div);
+    printf("rem is %d\n",rem);
+}
