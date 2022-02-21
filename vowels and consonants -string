@@ -1,0 +1,30 @@
+#include <stdio.h>
+void main()
+{
+    char string[50];
+    int x, vow = 0, cons = 0, special = 0;
+    printf("Enter The String To Find The Number Of Vowels And consonants: \n");
+    gets(string);
+    for (x = 0; string[x] != '\0'; x++)
+    {
+        if ((string[x] == 'a' || string[x] == 'e' || string[x] ==
+        'i' || string[x] == 'o' || string[x] == 'u') ||
+        (string[x] == 'A' || string[x] == 'E' || string[x] ==
+        'I' || string[x] == 'O' || string[x] == 'U'))
+        {
+            vow = vow + 1;
+        }
+        else
+        {
+            cons = cons + 1;
+        }
+        if (string[x] =='\t' ||string[x] =='\0' || string[x] ==' ')
+        {
+            special = special + 1;
+        }
+    }
+    cons = cons - special;
+    printf("Numbber Of Vowels In The Given String Is %s = %d\n", string, vow);
+    printf("Number Of Consonants In The Given String Is %s = %d\n", string, cons);
+}
+
